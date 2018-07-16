@@ -1,0 +1,160 @@
+// ############### Geral ###############
+$color-yellow: #fbba00;
+$color-green: #3fa535;
+$color-dark-blue: #283583;
+$color-light-blue: #009fe3;
+$color-ciane: #006f9b;
+$color-orange: #ee7203;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.flag {
+    display: inline-block;
+    background: $color-yellow;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    span {
+        color: black;
+    }
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 26px solid transparent;
+    border-right: 25px solid white;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+// ############### Hero ###############
+.hero {
+    background: url(../img/img.jpg);
+    height: 500px;
+    position: relative;
+    nav {
+        position: absolute;
+        right: 20px;
+        ul {
+            li {
+                text-align: right;
+                a {
+                    span {
+                        display: none;
+                        padding: 3px 18px;
+                        margin-right: -4px;
+                        font-size: 18px;
+                    }
+                    i {
+                        padding: 18px;
+                        border-radius: 50%;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+
+            li:nth-child(1) {
+                a {
+                    i {
+                        background: #fbba00;
+                    }
+                    span {
+                        background: #fbba00;
+
+                    }
+                }
+            }
+
+            li:nth-child(2) {
+                a {
+                    i {
+                        background: $color-green;
+                    }
+                    span {
+                        background: $color-green;
+
+                    }
+                }
+            }
+
+            li:nth-child(3) {
+                a {
+                    i {
+                        background: $color-dark-blue;
+                    }
+                    span {
+                        background: $color-dark-blue;
+
+                    }
+                }
+            }
+
+            li:nth-child(4) {
+                a {
+                    i {
+                        background: $color-light-blue;
+                    }
+                    span {
+                        background: $color-light-blue;
+
+                    }
+                }
+            }
+
+            li:nth-child(5) {
+                a {
+                    i {
+                        background: $color-ciane;
+                    }
+                    span {
+                        background: $color-ciane;
+
+                    }
+                }
+            }
+
+            li:nth-child(6) {
+                a {
+                    i {
+                        background: $color-orange;
+                    }
+                    span {
+                        background: $color-orange;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ############### Hero ###############
+.pre-main {
+    text-align: center;
+    padding: 70px 0;
+    h2 {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+}
