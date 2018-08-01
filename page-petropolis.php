@@ -4,7 +4,7 @@
         <h1>Em defesa de petrópolis</h1>
         <nav>
             <ul>
-                <li><a href="#saude"><span>Saude</span><i class="nav-menu-hover fas fa-adjust"></i></a></li>
+                <li><a href="#saude"><span>Saude</span><img src="img/saude.png" alt="saude"></a></li>
                 <li><a href="#esporte"><span>Esporte</span><i class="nav-menu-hover fas fa-adjust"></i></a></li>
                 <li><a href="#turismo"><span>Turismo</span><i class="nav-menu-hover fas fa-adjust"></i></a></li>
                 <li><a href="#infraestrutura"><span>Infraetrutura</span><i class="nav-menu-hover fas fa-adjust"></i></a></li>
